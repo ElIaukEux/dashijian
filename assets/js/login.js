@@ -27,7 +27,8 @@ $(function() {
     // 监听注册事件
     $('#zhuce').on('submit', function(e) {
         e.preventDefault();
-        $.post('/api/reguser', { username: $('.uname').val(), password: $('.pwd').val() }, function(reg) {
+        console.log('cesi');
+        $.post('/api/reg', { username: $('.uname').val(), password: $('.pwd').val() }, function(reg) {
             if (reg.status !== 0) {
                 return layui.layer.msg(reg.message);
             }
