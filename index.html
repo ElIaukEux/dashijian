@@ -38,13 +38,13 @@
             <ul class="layui-nav layui-layout-right">
                 <li class="layui-nav-item layui-hide layui-show-md-inline-block">
                     <a href="javascript:;" class="userinfo">
-                        <img src="//tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" class="layui-nav-img">
+                        <img src="" class="layui-nav-img">
                         <span class="text-tx">X</span> 个人中心
                     </a>
                     <dl class="layui-nav-child">
-                        <dd><a href="">基本资料</a></dd>
-                        <dd><a href="">更换头像</a></dd>
-                        <dd><a href="">重置密码</a></dd>
+                        <dd><a href="./user/user_info.html" target="fm">基本资料</a></dd>
+                        <dd><a href="./user/user_avatar.html" target="fm">更换头像</a></dd>
+                        <dd><a href="./user/user_pwd.html" target="fm">重置密码</a></dd>
                     </dl>
                 </li>
                 <li class="layui-nav-item" lay-header-event="menuRight" lay-unselect>
@@ -66,7 +66,7 @@
                 <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
                 <ul class="layui-nav layui-nav-tree" lay-filter="test" lay-shrink="all">
                     <li class="layui-nav-item layui-nav-itemed layui-this">
-                        <a href="./home/dashboard.html" target="home">
+                        <a href="./home/dashboard.html" target="fm">
                             <span class="iconfont icon-home"></span> 首&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页</a>
                     </li>
                     <li class="layui-nav-item ">
@@ -89,9 +89,9 @@
                         <a href="javascript:;">
                             <span class="iconfont icon-user"></span>个人中心</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-cols"></i>基本资料</a></dd>
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-cols"></i>更换头像</a></dd>
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-cols"></i>重置密码</a></dd>
+                            <dd><a href="./user/user_info.html" target="fm"><i class="layui-icon layui-icon-cols"></i>基本资料</a></dd>
+                            <dd><a href="./user/user_avatar.html" target="fm"><i class="layui-icon layui-icon-cols"></i>更换头像</a></dd>
+                            <dd><a href="./user/user_pwd.html" target="fm"><i class="layui-icon layui-icon-cols"></i>重置密码</a></dd>
                             <!-- <dd><a href="">超链接</a></dd> -->
                         </dl>
                     </li>
@@ -101,7 +101,7 @@
 
         <div class="layui-body">
             <!-- 内容主体区域 -->
-            <iframe name="home" src="./home/dashboard.html" frameborder="0"></iframe>
+            <iframe name="fm" src="./home/dashboard.html" frameborder="0"></iframe>
         </div>
 
         <div class="layui-footer">
