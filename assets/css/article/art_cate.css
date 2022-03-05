@@ -1,0 +1,40 @@
+body,
+html {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    padding: 10px;
+}
+
+.layui-form-item {
+    width: 500px;
+}
+
+.layui-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_add {
+    padding-top: 20px;
+    /* padding-right: 40px; */
+}
+
+#form_edit {
+    /* padding-right: 40px; */
+    padding-top: 20px;
+}
+
+.layui-input {
+    width: 350px;
+}
+
+#yes {
+    margin-top: 10px;
+    margin-left: 100px;
+}
